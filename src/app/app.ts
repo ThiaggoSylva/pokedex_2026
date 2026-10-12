@@ -1,13 +1,12 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+
 import { Navbar } from './components/navbar/navbar';
-import { ListagemPokemon } from './components/listagem-pokemon/listagem-pokemon';
+import { ListagemFavoritos } from './pokemon/favoritos/listagem-favoritos';
 
 @Component({
-  imports: [Navbar, ListagemPokemon],
+  imports: [Navbar, RouterOutlet, ListagemFavoritos],
   selector: 'app-root',
   templateUrl: './app.html',
 })
-export class App {
-  protected readonly title = signal('pokedex_2026');
-}
+export class App {}

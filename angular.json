@@ -30,8 +30,7 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"],
-            "scripts": ["bootstrap/dist/js/bootstrap.min.js"]
+            "styles": ["src/styles.scss"]
           },
           "configurations": {
             "production": {
@@ -71,6 +70,14 @@
         },
         "test": {
           "builder": "@angular/build:unit-test"
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://academiadoprogramador-fullstack.github.io/pokedex-2026/",
+            "name": "Tiago Santini",
+            "email": "66257666+tiagosantini@users.noreply.github.com"
+          }
         }
       }
     }
