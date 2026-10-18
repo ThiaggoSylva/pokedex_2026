@@ -74,9 +74,9 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://academiadoprogramador-fullstack.github.io/pokedex-2026/",
-            "name": "Tiago Santini",
-            "email": "66257666+tiagosantini@users.noreply.github.com"
+            "baseHref": "https://thiaggosylva.github.io/pokedex_2026/",
+            "name": "Thiago",
+            "email": "thiaggosylva+ThiaggoSylva@users.noreply.github.com"
           }
         }
       }
